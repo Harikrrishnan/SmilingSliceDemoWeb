@@ -218,9 +218,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Header
---------------------------------------------------------------*/
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -230,26 +227,46 @@ h6 {
 }
 
 .header .logo {
-  line-height: 1;
+  display: flex;
+  align-items: center; /* Aligns everything vertically in the center */
 }
 
 .header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+  max-height: 60px; /* Adjust the size of the logo */
+  margin-right: 10px;
+}
+
+.header .logo h1, .header .logo span {
+  display: inline-block; /* Ensures both text elements are treated inline */
+  vertical-align: middle; /* Aligns them with the logo */
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 24px; /* Adjusted to match the logo size */
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
   font-family: var(--default-font);
+  line-height: 1.2;
 }
 
 .header .logo span {
   color: var(--accent-color);
-  font-size: 36px;
+  font-size: 18px; /* Smaller font for Homemade Cakes */
+  display: block;
+  line-height: 1; /* Ensure there's no extra spacing */
+  margin-top: 0px; /* No extra margin for spacing */
 }
+
+.header .logo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Ensures "Smiling Slice" and "Homemade Cakes" are vertically aligned with the logo */
+  height: 100%;
+}
+
+
+
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
