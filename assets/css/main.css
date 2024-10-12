@@ -1576,7 +1576,16 @@ section,
   .gallery .swiper-wrapper {
     padding: 40px 0;
   }
-
+@media (max-width: 991px) {
+    .gallery .swiper-wrapper {
+      padding: 20px 0;
+    }
+    .gallery .swiper-slide-active {
+      transform: scale(1.2);
+      transition: transform 0.3s ease-in-out;
+      border: 4px solid var(--accent-color);
+    }
+  }
   .gallery .swiper-slide-active {
     background: var(--background-color);
     border: 6px solid var(--accent-color);
