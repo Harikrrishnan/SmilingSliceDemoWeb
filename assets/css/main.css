@@ -879,6 +879,7 @@ section,
 }
 
 .hero .animated {
+  -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
@@ -1634,6 +1635,13 @@ section,
 
 .contact .info-item .social-links a:hover {
   color: var(--accent-color);
+}
+@media (max-width: 768px) {
+  [data-aos] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 .contact .php-email-form {
