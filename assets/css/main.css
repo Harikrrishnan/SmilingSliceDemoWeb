@@ -577,6 +577,12 @@ h6 {
   padding: 40px 0;
   position: relative;
 }
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
 
 .footer .icon {
   color: var(--accent-color);
@@ -596,17 +602,16 @@ h6 {
 }
 
 .footer .social-links a {
-  display: flex;
+  margin-right: 10px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+  background: #ffffff33;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  margin-right: 10px;
-  transition: 0.3s;
+  color: #fff;
+  transition: background 0.3s;
 }
 
 .footer .social-links a:hover {
@@ -614,6 +619,15 @@ h6 {
   border-color: var(--accent-color);
 }
 
+.footer .fssai img {
+  margin: 0 auto;
+}
+
+.footer .fssai p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+}
 .footer .copyright {
   padding-top: 20px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -627,7 +641,9 @@ h6 {
   margin-top: 5px;
   font-size: 13px;
 }
-
+.footer .d-flex {
+  align-items: flex-start;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
