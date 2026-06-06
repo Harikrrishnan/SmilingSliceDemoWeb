@@ -67,9 +67,8 @@ window.MENU_DATA = {
         { name: "Snickers",                price: 1600, img: "assets/menu/snickers.jpg" },
         { name: "Spanish Delight",         price: 1400, img: "assets/menu/spanish.jpg" },
         { name: "Raffaello",               price: 1650, img: "assets/menu/raffaello.jpg" },
-        { name: "Chocolate Overloaded",    price: 1600, img: "assets/menu/chocolate-overloaded.jpg" },
+        { name: "Chocolate Overloaded",    price: 1650, img: "assets/menu/chocolate-overloaded.jpg" },
         { name: "Rainbow",                 price: 1800, img: "assets/menu/rainbow.jpeg" },
-        { name: "Toffee",                  price: 1300, img: "assets/menu/toffee.jpg" },
         { name: "Tres Leches",             price: 1450, img: "assets/menu/tres-leches.jpg" },
         { name: "Ferrero Rocher",          price: 1650, img: "assets/menu/ferrero-rocher.jpg" }
       ]
